@@ -43,9 +43,9 @@ def hit?(initial_round)
   # code hit? here
  prompt_user
   get_user_input
-  if get_user_input='s'
+  if get_user_input=='s'
     initial_round
-    elsif get_user_input='h'
+    elsif get_user_input=='h'
     deal_card
     initial_round=initial_round+deal_card
   else
