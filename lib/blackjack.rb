@@ -46,10 +46,11 @@ def hit?(initial_round)
   if get_user_input='s'
     initial_round
     elsif get_user_input='h'
-    initial_round+=
+    initial_round+=deal_card
+  else
+    invalid_command
+    prompt_user
     
-  
-  
   end
   
 end
