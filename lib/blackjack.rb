@@ -32,10 +32,8 @@ def initial_round
   # code #initial_round here
 a=deal_card
 b=deal_card
-
-
 sam=a+b
-display_card_total(sam)
+#display_card_total(sam)
 
 end
 
