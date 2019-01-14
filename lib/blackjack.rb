@@ -47,7 +47,7 @@ def hit?(initial_round)
     initial_round
     elsif get_user_input='h'
     deal_card
-    initial_round+=deal_card
+    initial_round=initial_round+deal_card
   else
     invalid_command
     prompt_user
