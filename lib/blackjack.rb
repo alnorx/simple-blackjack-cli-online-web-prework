@@ -40,21 +40,7 @@ end
 
 
 def hit?(display_card_total)
-  # code hit? here
-  prompt_user
-  get_user_input
-  if prompt_user=='s'
-    display_card_total==display_card_total
-
-  elsif prompt_user=='h'
-  deal_card
-  display_card_total+=deal_card
-  
-else
-  invalid_command
-  prompt_user
-end
-  
+ 
 end
 
 def invalid_command
