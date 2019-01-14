@@ -31,10 +31,10 @@ end
 def initial_round
   # code #initial_round here
 
-a=deal_card
-b=deal_card
-sam=a+b
-display_card_total(sam)
+deal_card
+deal_card
+
+display_card_total(deal_card+deal_card)
 
 end
 
