@@ -39,10 +39,18 @@ end
 
 
 
-def hit?(display_card_total)
+def hit?(initial_round)
   # code hit? here
  prompt_user
   get_user_input
+  if get_user_input='s'
+    initial_round
+    elsif get_user_input='h'
+    initial_round+=
+    
+  
+  
+  end
   
 end
 
