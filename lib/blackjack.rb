@@ -30,14 +30,12 @@ end
 
 def initial_round
   # code #initial_round here
-2.times do
-  deal_card
-end
 
-#a=deal_card
-#b=deal_card
-#sam=a+b
-#display_card_total(sam)
+a=deal_card
+b=deal_card
+sam=a+b
+display_card_total(sam)
+
 
 end
 
