@@ -33,9 +33,8 @@ def initial_round
 
 a=deal_card
 b=deal_card
-
 display_card_total(a+b)
-
+a+b
 end
 
 
