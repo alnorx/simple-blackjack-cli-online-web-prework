@@ -56,5 +56,8 @@ end
 
 def runner
   # code runner here
+  c=prompt_user
+  d=get_user_input
+  
 end
     
